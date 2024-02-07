@@ -3,7 +3,6 @@ function findAddress(obj) {
     const street = obj.street || '__'; //if the value is not defind then printed the doubled
     const house = obj.house || '__';
     const society = obj.society || '__';
-
     const str = street + ',' + house + ',' + society;
     return str;
 }
